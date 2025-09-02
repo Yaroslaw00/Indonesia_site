@@ -66,9 +66,11 @@ ol {
 
 header {
   padding-top: 58px;
-  background-image: url();
 }
-
+.exploreindonesia {
+  background-image: url("../assets/img/hero-bg.jpg");
+  background-size: cover;
+}
 .explore-h1 {
   /* Explore Indonesia */
   width: 314px;
