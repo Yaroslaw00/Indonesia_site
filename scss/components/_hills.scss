@@ -1,0 +1,48 @@
+.hills {
+  padding-top: 171px;
+  padding-bottom: 116px;
+  background-image: url("../../assets/img/Figur-bg.png"),
+    url("../../assets/img/Figur-bg1.png");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom;
+}
+.hills-h2 {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+
+  text-align: center;
+  color: #000000;
+}
+.hills-p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.5px;
+
+  color: #6f7787;
+  margin-top: 36px;
+  margin-bottom: 41px;
+}
+.hills-button {
+  border-radius: 122px;
+  background: rgba(221, 34, 66, 1);
+  color: #fff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 314px;
+  height: 73px;
+  border: none;
+  outline: none;
+  padding: 16px 24px 16px 24px;
+}
