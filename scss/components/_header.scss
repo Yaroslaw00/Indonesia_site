@@ -1,5 +1,9 @@
 .header {
   position: absolute;
+  padding-top: 58px;
+}
+.header-list-li:not(:last-child) {
+  margin-right: 29px;
 }
 .header-list-icons {
   display: flex;
@@ -14,6 +18,7 @@
 .list-icon-frame {
   width: 24px;
   height: 24px;
+  fill: #fff;
 }
 
 .header-logo {
@@ -24,6 +29,7 @@
 .list-icon-menu {
   width: 24px;
   height: 24px;
+  fill: #fff;
 }
 
 .header-title {
@@ -47,8 +53,5 @@
 .flex {
   display: flex;
   align-items: center;
-}
-
-header {
-  padding-top: 58px;
+  justify-content: space-between;
 }
