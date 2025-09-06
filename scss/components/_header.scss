@@ -38,16 +38,18 @@
   font-weight: 900;
   font-size: 20.8413px;
   line-height: 80.5%;
-  /* or 17px */
   letter-spacing: 0.274228px;
   text-transform: uppercase;
   width: 111px;
   margin: 0;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 .header-logo-svg {
   height: 42px;
   width: 42px;
+  fill: rgba(255, 255, 255, 1);
 }
 
 .flex {

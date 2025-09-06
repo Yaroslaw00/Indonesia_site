@@ -9,6 +9,7 @@
   left: 30px;
   top: 153px;
   margin-top: 0px;
+  margin-bottom: 8px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -17,7 +18,7 @@
   /* or 108% */
   text-transform: uppercase;
 
-  color: black;
+  color: rgba(255, 255, 255, 1);
 }
 .explore-button {
   width: 315px;
@@ -32,6 +33,7 @@
   line-height: 23px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 54px;
   color: #ffffff;
 }
 .title-ul {
@@ -76,4 +78,10 @@
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
+}
+.img-video {
+  margin-top: 1px;
+  margin-bottom: 40px;
+  width: 314px;
+  height: 191px;
 }
