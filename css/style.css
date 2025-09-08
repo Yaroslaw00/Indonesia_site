@@ -224,5 +224,55 @@ ol {
 .nature {
   padding-top: 40px;
   padding-bottom: 48px;
-  background-color: black;
+  background: #010142;
+  background: linear-gradient(90deg, rgba(1, 1, 66, 0.94) 0%, rgba(23, 23, 138, 0.8) 100%);
+}
+
+.nature-img {
+  width: 314px;
+  height: 232px;
+}
+
+.nature-img:last-child {
+  padding-top: 56px;
+}
+
+.nature-h2 {
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: 34px;
+  margin-bottom: 30px;
+}
+
+.nature-p {
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-bottom: 31px;
+}
+
+.nature-button {
+  width: 314px;
+  height: 72px;
+  gap: undefined;
+  padding: 16px 24px 16px 24px;
+  border-radius: 32px;
+  background: rgb(221, 34, 66);
+  border: none;
+  outline: none;
+  color: #ffffff;
+  font-family: DM Sans;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
 }
