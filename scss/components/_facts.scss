@@ -1,0 +1,53 @@
+.facts {
+  padding-top: 82px;
+  padding-bottom: 70px;
+  background-color: #010a20;
+}
+.facts-h2 {
+  width: 314px;
+  height: 52px;
+  color: rgba(255, 255, 255, 1);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 62px;
+}
+.facts-p {
+  color: #e0e0e0;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 62px;
+}
+.factul-h2 {
+  color: rgba(221, 34, 66, 1);
+
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.factul-p {
+  color: #e0e0e0;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+.factul-li:first-child {
+  margin-bottom: 81px;
+}
+.factul-li:nth-child(2) {
+  margin-bottom: 44px;
+}

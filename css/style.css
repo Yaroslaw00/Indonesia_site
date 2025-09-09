@@ -224,8 +224,11 @@ ol {
 .nature {
   padding-top: 40px;
   padding-bottom: 48px;
-  background: #010142;
-  background: linear-gradient(90deg, rgba(1, 1, 66, 0.94) 0%, rgba(23, 23, 138, 0.8) 100%);
+  background-color: #010a20;
+}
+
+.nature-li:not(:last-child) {
+  margin-bottom: 56px;
 }
 
 .nature-img {
@@ -250,7 +253,7 @@ ol {
 }
 
 .nature-p {
-  color: #ffffff;
+  color: #e0e0e0;
   font-family: DM Sans;
   font-size: 16px;
   font-weight: 400;
@@ -275,4 +278,104 @@ ol {
   font-weight: 700;
   line-height: 23px;
   letter-spacing: 0%;
+}
+
+.secrets {
+  padding-top: 25px;
+  background-image: url("../../assets/img/secret-bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1088px;
+}
+
+.secrets-img {
+  margin-top: 40px;
+  margin-bottom: 16px;
+}
+
+.secrets-h2 {
+  color: black;
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.secrets-ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secrets-svg {
+  width: 12px;
+  height: 19.55px;
+  fill: rgb(2, 11, 32);
+  margin: 0 9px;
+}
+
+.secret-img2 {
+  display: block;
+  margin: 0 auto;
+}
+
+.facts {
+  padding-top: 82px;
+  padding-bottom: 70px;
+  background-color: #010a20;
+}
+
+.facts-h2 {
+  width: 314px;
+  height: 52px;
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.facts-p {
+  color: #e0e0e0;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  margin-bottom: 62px;
+}
+
+.factul-h2 {
+  color: rgb(221, 34, 66);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.factul-p {
+  color: #e0e0e0;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.factul-li:first-child {
+  margin-bottom: 81px;
+}
+
+.factul-li:nth-child(2) {
+  margin-bottom: 44px;
 }
