@@ -116,6 +116,8 @@ ol {
   text-align: center;
   margin-bottom: 54px;
   color: #ffffff;
+  border: none;
+  outline: none;
 }
 
 .title-ul {
@@ -329,7 +331,6 @@ ol {
 
 .facts-h2 {
   width: 314px;
-  height: 52px;
   color: rgb(255, 255, 255);
   font-family: DM Sans;
   font-size: 40px;
@@ -378,4 +379,158 @@ ol {
 
 .factul-li:nth-child(2) {
   margin-bottom: 44px;
+}
+
+.life {
+  padding-top: 83px;
+  padding-bottom: 44px;
+  background-image: url("../../assets/img/sunshine-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.life-h2 {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 314px;
+  margin-bottom: 115px;
+}
+
+.life-img {
+  width: 314px;
+  height: 176px;
+  margin-bottom: 40px;
+}
+
+.life-li:first-child {
+  margin-bottom: 33px;
+}
+
+.life-img2 {
+  width: 314px;
+  height: 176px;
+  margin-bottom: 40px;
+}
+
+.life-h3 {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.life-p {
+  color: rgb(255, 255, 255);
+  opacity: 0.7;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.gallery {
+  padding-top: 32px;
+  padding-bottom: 40px;
+}
+
+.gallery-h2 {
+  color: rgb(1, 10, 32);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.gallery-p {
+  color: rgb(111, 119, 135);
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.gallery-div {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.gallery-img1 {
+  width: 151px;
+  height: 217px;
+}
+
+.gallery-img2 {
+  width: 151px;
+  height: 86px;
+}
+
+.gallery-img3 {
+  width: 150px;
+  height: 153px;
+}
+
+.gallery-img4 {
+  width: 150px;
+  height: 153px;
+}
+
+.gallery-img5 {
+  display: block;
+  width: 151px;
+  height: 217px;
+}
+
+.gallery-img6 {
+  width: 150px;
+  height: 153px;
+}
+
+.div1 {
+  grid-row: span 2/span 2;
+  width: 151px;
+  height: 217px;
+}
+
+.div2 {
+  grid-column-start: 1;
+  grid-row-start: 3;
+}
+
+.div3 {
+  grid-row: span 2/span 2;
+  grid-column-start: 1;
+  grid-row-start: 4;
+}
+
+.div4 {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+.div5 {
+  grid-row: span 2/span 2;
+  grid-column-start: 2;
+  grid-row-start: 2;
+}
+
+.div6 {
+  grid-row: span 2/span 2;
+  grid-row-start: 4;
 }

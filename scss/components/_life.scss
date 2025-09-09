@@ -1,0 +1,51 @@
+.life {
+  padding-top: 83px;
+  padding-bottom: 44px;
+  background-image: url("../../assets/img/sunshine-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.life-h2 {
+  color: rgba(255, 255, 255, 1);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  width: 314px;
+  margin-bottom: 115px;
+}
+.life-img {
+  width: 314px;
+  height: 176px;
+  margin-bottom: 40px;
+}
+.life-li:first-child {
+  margin-bottom: 33px;
+}
+.life-img2 {
+  width: 314px;
+  height: 176px;
+  margin-bottom: 40px;
+}
+.life-h3 {
+  color: rgba(255, 255, 255, 1);
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.life-p {
+  color: rgba(255, 255, 255, 1);
+  opacity: 0.7;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
