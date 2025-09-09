@@ -44,6 +44,7 @@ ol {
 .header-logo {
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .list-icon-menu {
@@ -452,6 +453,7 @@ ol {
   line-height: 46px;
   letter-spacing: 0%;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 .gallery-p {
@@ -462,6 +464,7 @@ ol {
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: center;
+  margin-bottom: 32px;
 }
 
 .gallery-div {
@@ -533,4 +536,157 @@ ol {
 .div6 {
   grid-row: span 2/span 2;
   grid-row-start: 4;
+}
+
+.getting {
+  background: rgb(220, 232, 242);
+  padding-top: 29px;
+  padding-bottom: 73px;
+}
+
+.getting-h2 {
+  color: rgb(1, 10, 32);
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 45px;
+}
+
+.circle {
+  /* Number */
+  width: 56px;
+  height: 56px;
+  border-radius: 90px;
+  background-color: rgb(214, 31, 62);
+  font-style: "DM sans";
+  font-size: 30px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.getting-li {
+  text-align: center;
+}
+
+.getting-h3 {
+  color: rgb(1, 10, 32);
+  font-family: DM Sans;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 26px;
+  margin-bottom: 10px;
+}
+
+.getting-p {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.getting-a {
+  font-family: DM Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgb(214, 31, 62);
+  text-decoration: none;
+}
+
+.getting-li:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.getting-img {
+  margin-bottom: 40px;
+}
+
+.footer {
+  padding-top: 155px;
+  padding-bottom: 84px;
+  background-color: #010a20;
+}
+
+.footer-h3 {
+  font-family: Roboto;
+  font-size: 23.96px;
+  font-weight: 900;
+  line-height: 90.5%;
+  letter-spacing: 0.32px;
+  text-align: left;
+  text-transform: uppercase;
+  width: 128px;
+  height: 56.75px;
+  color: #ffffff;
+  margin-bottom: 36px;
+}
+
+.footer-nav {
+  text-align: center;
+}
+
+.li-a {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 22.94px;
+  font-weight: 700;
+  line-height: 35.69px;
+  letter-spacing: 0.64px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.li2-p {
+  color: rgb(255, 255, 255);
+  font-family: DM Sans;
+  font-size: 23.24px;
+  font-weight: 700;
+  line-height: 36.15px;
+  letter-spacing: 0.65px;
+  text-align: center;
+  justify-content: center;
+}
+
+.li2-svg {
+  width: 30.99px;
+  height: 30.99px;
+}
+
+.footer-svg {
+  width: 51px;
+  height: 51px;
+  fill: #ffffff;
+}
+
+.footer-li:not(:last-child) {
+  margin-bottom: 36px;
+}
+
+.li2-svg {
+  fill: #ffffff;
+}
+
+.footer-ul2 {
+  display: flex;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
 }
