@@ -683,6 +683,20 @@ ol {
 
 .footer-ul2 {
   display: flex;
+  justify-content: center;
+  margin-top: 36px;
+  margin-bottom: 36px;
+}
+
+.footer-li2:not(:last-child) {
+  margin-right: 48.5px;
+  width: 31px;
+  height: 31px;
+}
+
+.li2-svg {
+  width: 31px;
+  height: 31px;
 }
 
 .footer-logo {
