@@ -4,6 +4,10 @@
   background-image: url("../../assets/img/sunshine-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  @media (min-width: 1920px) {
+    padding-top: 141px;
+    padding-bottom: 210px;
+  }
 }
 .life-h2 {
   color: rgba(255, 255, 255, 1);
@@ -15,11 +19,37 @@
   text-align: center;
   width: 314px;
   margin-bottom: 115px;
+  @media (min-width: 1920px) {
+    font-size: 42px;
+    line-height: 50px;
+    margin: 0 auto;
+    width: 1056px;
+    height: 142.64px;
+    margin-bottom: 67px;
+  }
 }
 .life-img {
   width: 314px;
   height: 176px;
   margin-bottom: 40px;
+  @media (min-width: 1920px) {
+    width: 1056px;
+    height: 594px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+.life-ul {
+  @media (min-width: 1920px) {
+    display: flex;
+    justify-content: center;
+    margin-top: 127px;
+  }
+}
+.life-li {
+  @media (min-width: 1920px) {
+    display: flex;
+  }
 }
 .life-li:first-child {
   margin-bottom: 33px;
@@ -28,6 +58,11 @@
   width: 314px;
   height: 176px;
   margin-bottom: 40px;
+}
+.life-div {
+  @media (min-width: 1920px) {
+    margin-left: 41px;
+  }
 }
 .life-h3 {
   color: rgba(255, 255, 255, 1);
@@ -38,6 +73,15 @@
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 19px;
+  @media (min-width: 1920px) {
+    width: 233.14px;
+    height: 35.66px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+
+    text-align: left;
+  }
 }
 .life-p {
   color: rgba(255, 255, 255, 1);
@@ -48,4 +92,14 @@
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: center;
+  @media (min-width: 1920px) {
+    font-size: 18px;
+
+    line-height: 28px;
+
+    text-align: left;
+
+    width: 334.63px;
+    height: 142.64px;
+  }
 }
