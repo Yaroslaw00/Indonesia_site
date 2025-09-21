@@ -1,7 +1,7 @@
 .exploreindonesia {
   background-image: url("../assets/img/hero-bg.jpg");
   background-size: cover;
-  padding-top: 153px;
+  padding-top: 195px;
   background-repeat: no-repeat;
 }
 .explore-h1 {
@@ -15,28 +15,26 @@
   font-weight: 900;
   font-size: 58.1515px;
   line-height: 63px;
-  /* or 108% */
+
   text-transform: uppercase;
 
   color: rgba(255, 255, 255, 1);
-  @media (min-width: 1200px) {
+  @media (min-width: 1920px) {
     display: flex;
     margin-left: 277px;
     color: rgba(255, 255, 255, 1);
-
-    font-family: Roboto;
+    justify-content: center;
+    margin-bottom: 21px;
+    width: 627.33px;
+    height: 260px;
     font-size: 120px;
-    font-weight: 900;
     line-height: 130px;
-    letter-spacing: 0%;
-    text-align: left;
     text-transform: uppercase;
   }
 }
 .explore-button {
   width: 315px;
   height: 59px;
-  /* Автолейаут */
   padding: 10.2px;
   border-radius: 107.63px;
   background: (rgba(221, 34, 66, 1));
@@ -50,6 +48,20 @@
   color: #ffffff;
   border: none;
   outline: none;
+  @media (min-width: 1920px) {
+    width: 271.14px;
+    height: 82px;
+    padding: 20px;
+    border-radius: 211px;
+    background: rgba(221, 34, 66, 1);
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 277px;
+    font-size: 20px;
+    margin-bottom: 241px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
 }
 .title-ul {
   box-sizing: border-box;
@@ -60,9 +72,27 @@
   padding-bottom: 30px;
   padding-top: 37px;
   color: #ffffff;
+  @media (min-width: 1920px) {
+    display: flex;
+    margin-left: 277px;
+    width: 1225.64px;
+    height: 210px;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 1);
+    opacity: 0.6;
+    padding-top: 41px;
+    padding-bottom: 49px;
+    padding-left: 71px;
+  }
 }
 .title-li:not(:last-child) {
   margin-bottom: 32px;
+  @media (min-width: 1920px) {
+    margin-right: 198px;
+
+    width: 210.11px;
+    height: 120px;
+  }
 }
 .title-a {
   color: rgba(221, 34, 66, 1);
@@ -93,10 +123,26 @@
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
+  @media (min-width: 1920px) {
+    width: 210.11px;
+    height: 46px;
+
+    font-size: 18px;
+
+    line-height: 28px;
+  }
 }
 .img-video {
   margin-top: 1px;
-  margin-bottom: 40px;
+
   width: 314px;
   height: 191px;
+  @media (min-width: 1920px) {
+    display: block;
+    margin: 0 auto;
+    margin-left: 128px;
+
+    width: 417.22px;
+    height: 254px;
+  }
 }

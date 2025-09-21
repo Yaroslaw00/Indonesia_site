@@ -2,13 +2,39 @@
   padding-top: 40px;
   padding-bottom: 48px;
   background-color: #010a20;
+  @media (min-width: 1920px) {
+    padding-top: 207px;
+    padding-bottom: 305px;
+  }
+}
+.nature.div {
+  @media (min-width: 1920px) {
+    display: flex;
+  }
+}
+.nature-li {
+  @media (min-width: 1920px) {
+    display: flex;
+  }
 }
 .nature-li:not(:last-child) {
   margin-bottom: 56px;
+  @media (min-width: 1920px) {
+  }
+}
+.nature-ul {
+  @media (min-width: 1920px) {
+    text-align: center;
+    width: 100%;
+  }
 }
 .nature-img {
   width: 314px;
   height: 232px;
+  @media (min-width: 1920px) {
+    width: 630.34px;
+    height: 460px;
+  }
 }
 .nature-img:last-child {
   padding-top: 56px;
@@ -24,6 +50,19 @@
   text-align: left;
   margin-top: 34px;
   margin-bottom: 30px;
+  @media (min-width: 1920px) {
+    margin-left: 127px;
+
+    width: 479.5px;
+    height: 119.95px;
+    color: rgba(255, 255, 255, 1);
+
+    font-size: 42px;
+
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
 }
 .nature-p {
   color: #e0e0e0;
@@ -35,6 +74,8 @@
   letter-spacing: 0.5px;
   text-align: left;
   margin-bottom: 31px;
+  @media (min-width: 1920px) {
+  }
 }
 .nature-button {
   width: 314px;

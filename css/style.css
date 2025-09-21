@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -13,11 +12,12 @@ ol {
 .container {
   width: 380px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 30px;
 }
 @media (min-width: 1920px) {
   .container {
     width: 1695px;
+    padding: 0 15px;
   }
 }
 
@@ -114,7 +114,7 @@ ol {
   letter-spacing: 0.274228px;
   text-transform: uppercase;
   width: 111px;
-  margin: 0;
+  margin: 0px;
   color: #ffffff;
   text-decoration: none;
 }
@@ -139,7 +139,7 @@ ol {
 .exploreindonesia {
   background-image: url("../assets/img/hero-bg.jpg");
   background-size: cover;
-  padding-top: 153px;
+  padding-top: 195px;
   background-repeat: no-repeat;
 }
 
@@ -154,21 +154,20 @@ ol {
   font-weight: 900;
   font-size: 58.1515px;
   line-height: 63px;
-  /* or 108% */
   text-transform: uppercase;
   color: rgb(255, 255, 255);
 }
-@media (min-width: 1200px) {
+@media (min-width: 1920px) {
   .explore-h1 {
     display: flex;
     margin-left: 277px;
     color: rgb(255, 255, 255);
-    font-family: Roboto;
+    justify-content: center;
+    margin-bottom: 21px;
+    width: 627.33px;
+    height: 260px;
     font-size: 120px;
-    font-weight: 900;
     line-height: 130px;
-    letter-spacing: 0%;
-    text-align: left;
     text-transform: uppercase;
   }
 }
@@ -176,7 +175,6 @@ ol {
 .explore-button {
   width: 315px;
   height: 59px;
-  /* Автолейаут */
   padding: 10.2px;
   border-radius: 107.63px;
   background: rgb(221, 34, 66);
@@ -191,6 +189,22 @@ ol {
   border: none;
   outline: none;
 }
+@media (min-width: 1920px) {
+  .explore-button {
+    width: 271.14px;
+    height: 82px;
+    padding: 20px;
+    border-radius: 211px;
+    background: rgb(221, 34, 66);
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 277px;
+    font-size: 20px;
+    margin-bottom: 241px;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+}
 
 .title-ul {
   box-sizing: border-box;
@@ -202,9 +216,30 @@ ol {
   padding-top: 37px;
   color: #ffffff;
 }
+@media (min-width: 1920px) {
+  .title-ul {
+    display: flex;
+    margin-left: 277px;
+    width: 1225.64px;
+    height: 210px;
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    opacity: 0.6;
+    padding-top: 41px;
+    padding-bottom: 49px;
+    padding-left: 71px;
+  }
+}
 
 .title-li:not(:last-child) {
   margin-bottom: 32px;
+}
+@media (min-width: 1920px) {
+  .title-li:not(:last-child) {
+    margin-right: 198px;
+    width: 210.11px;
+    height: 120px;
+  }
 }
 
 .title-a {
@@ -239,12 +274,28 @@ ol {
   letter-spacing: 0.5px;
   text-align: left;
 }
+@media (min-width: 1920px) {
+  .title-p {
+    width: 210.11px;
+    height: 46px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
 
 .img-video {
   margin-top: 1px;
-  margin-bottom: 40px;
   width: 314px;
   height: 191px;
+}
+@media (min-width: 1920px) {
+  .img-video {
+    display: block;
+    margin: 0 auto;
+    margin-left: 128px;
+    width: 417.22px;
+    height: 254px;
+  }
 }
 
 .hills {
@@ -300,14 +351,44 @@ ol {
   padding-bottom: 48px;
   background-color: #010a20;
 }
+@media (min-width: 1920px) {
+  .nature {
+    padding-top: 207px;
+    padding-bottom: 305px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .nature.div {
+    display: flex;
+  }
+}
+
+@media (min-width: 1920px) {
+  .nature-li {
+    display: flex;
+  }
+}
 
 .nature-li:not(:last-child) {
   margin-bottom: 56px;
+}
+@media (min-width: 1920px) {
+  .nature-ul {
+    text-align: center;
+    width: 100%;
+  }
 }
 
 .nature-img {
   width: 314px;
   height: 232px;
+}
+@media (min-width: 1920px) {
+  .nature-img {
+    width: 630.34px;
+    height: 460px;
+  }
 }
 
 .nature-img:last-child {
@@ -325,6 +406,18 @@ ol {
   margin-top: 34px;
   margin-bottom: 30px;
 }
+@media (min-width: 1920px) {
+  .nature-h2 {
+    margin-left: 127px;
+    width: 479.5px;
+    height: 119.95px;
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+}
 
 .nature-p {
   color: #e0e0e0;
@@ -336,7 +429,6 @@ ol {
   text-align: left;
   margin-bottom: 31px;
 }
-
 .nature-button {
   width: 314px;
   height: 72px;
@@ -360,6 +452,11 @@ ol {
   background-size: cover;
   background-repeat: no-repeat;
   height: 1088px;
+}
+@media (min-width: 1920px) {
+  .secrets {
+    padding-top: 127px;
+  }
 }
 
 .secrets-img {
@@ -604,7 +701,7 @@ ol {
 .gallery-div {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(1, 1fr);
   gap: 12px;
 }
 
