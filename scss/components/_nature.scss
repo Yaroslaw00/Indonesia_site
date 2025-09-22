@@ -9,7 +9,6 @@
 }
 .nature.div {
   @media (min-width: 1920px) {
-    display: flex;
   }
 }
 .nature-li {
@@ -19,8 +18,6 @@
 }
 .nature-li:not(:last-child) {
   margin-bottom: 56px;
-  @media (min-width: 1920px) {
-  }
 }
 .nature-ul {
   @media (min-width: 1920px) {

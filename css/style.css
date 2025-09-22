@@ -359,12 +359,6 @@ ol {
 }
 
 @media (min-width: 1920px) {
-  .nature.div {
-    display: flex;
-  }
-}
-
-@media (min-width: 1920px) {
   .nature-li {
     display: flex;
   }
@@ -373,6 +367,7 @@ ol {
 .nature-li:not(:last-child) {
   margin-bottom: 56px;
 }
+
 @media (min-width: 1920px) {
   .nature-ul {
     text-align: center;
@@ -463,6 +458,19 @@ ol {
   margin-top: 40px;
   margin-bottom: 16px;
 }
+@media (min-width: 1920px) {
+  .secrets-img {
+    width: 405px;
+    height: 257px;
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .secrets-li:not(:last-child) {
+    margin-right: 31px;
+  }
+}
 
 .secrets-h2 {
   color: black;
@@ -472,6 +480,14 @@ ol {
   line-height: 46px;
   letter-spacing: 0%;
   text-align: center;
+}
+@media (min-width: 1920px) {
+  .secrets-h2 {
+    color: rgb(1, 10, 32);
+    font-size: 50px;
+    line-height: 65px;
+    margin-bottom: 44px;
+  }
 }
 
 .secrets-ul {
@@ -497,9 +513,16 @@ ol {
   padding-bottom: 70px;
   background-color: #010a20;
 }
+@media (min-width: 1920px) {
+  .facts {
+    padding-top: 201px;
+    padding-bottom: 224px;
+  }
+}
 
 .facts-h2 {
   width: 314px;
+  height: 52px;
   color: rgb(255, 255, 255);
   font-family: DM Sans;
   font-size: 40px;
@@ -508,6 +531,22 @@ ol {
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 62px;
+}
+@media (min-width: 1920px) {
+  .facts-h2 {
+    width: 615.36px;
+    height: 52.17px;
+    margin: 0 auto;
+    font-size: 60px;
+    line-height: 78px;
+    letter-spacing: 0%;
+  }
+}
+
+@media (min-width: 1920px) {
+  .br {
+    display: none;
+  }
 }
 
 .facts-p {
@@ -520,6 +559,25 @@ ol {
   text-align: center;
   margin-bottom: 62px;
 }
+@media (min-width: 1920px) {
+  .facts-p {
+    width: 484px;
+    height: 102px;
+    color: rgb(224, 224, 224);
+    font-size: 18px;
+    line-height: 28px;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 39px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .factul {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 .factul-h2 {
   color: rgb(221, 34, 66);
@@ -531,6 +589,15 @@ ol {
   text-align: center;
   margin-bottom: 10px;
 }
+@media (min-width: 1920px) {
+  .factul-h2 {
+    color: rgb(221, 34, 66);
+    margin-bottom: 19px;
+    font-size: 42.14px;
+    line-height: 49.16px;
+    letter-spacing: 0.39px;
+  }
+}
 
 .factul-p {
   color: #e0e0e0;
@@ -541,13 +608,33 @@ ol {
   letter-spacing: 0.5px;
   text-align: center;
 }
+@media (min-width: 1920px) {
+  .factul-p {
+    width: 340.61px;
+    height: 70.23px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
 
 .factul-li:first-child {
   margin-bottom: 81px;
 }
+@media (min-width: 1920px) {
+  .factul-li:first-child {
+    margin-right: 127px;
+    margin-bottom: 0;
+  }
+}
 
 .factul-li:nth-child(2) {
   margin-bottom: 44px;
+}
+@media (min-width: 1920px) {
+  .factul-li:nth-child(2) {
+    margin-right: 91px;
+    margin-bottom: 0;
+  }
 }
 
 .life {
@@ -616,6 +703,7 @@ ol {
 
 .life-li:first-child {
   margin-bottom: 33px;
+  margin-right: 72px;
 }
 
 .life-img2 {
