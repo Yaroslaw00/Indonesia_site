@@ -2,6 +2,10 @@
   background: rgba(220, 232, 242, 1);
   padding-top: 29px;
   padding-bottom: 73px;
+  @media (min-width: 1920px) {
+    padding-top: 119px;
+    padding-bottom: 117px;
+  }
 }
 .getting-h2 {
   color: rgba(1, 10, 32, 1);

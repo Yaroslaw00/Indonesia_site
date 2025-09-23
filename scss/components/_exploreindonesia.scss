@@ -74,7 +74,7 @@
   color: #ffffff;
   @media (min-width: 1920px) {
     display: flex;
-    margin-left: 277px;
+
     width: 1225.64px;
     height: 210px;
     box-sizing: border-box;
@@ -139,10 +139,13 @@
   height: 191px;
   @media (min-width: 1920px) {
     display: block;
-    margin: 0 auto;
-    margin-left: 128px;
-
     width: 417.22px;
     height: 254px;
+  }
+}
+.img-div {
+  @media (min-width: 1920px) {
+    display: flex;
+    align-items: flex-end;
   }
 }
