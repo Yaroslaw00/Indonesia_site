@@ -1,6 +1,10 @@
 .gallery {
   padding-top: 32px;
   padding-bottom: 40px;
+  @media (min-width: 1920px) {
+    padding-top: 177px;
+    padding-bottom: 229px;
+  }
 }
 .gallery-h2 {
   color: rgba(1, 10, 32, 1);
@@ -11,6 +15,11 @@
   letter-spacing: 0%;
   text-align: center;
   margin-bottom: 20px;
+  @media (min-width: 1920px) {
+    font-size: 60px;
+    line-height: 78px;
+    margin-bottom: 41px;
+  }
 }
 .gallery-p {
   color: rgba(111, 119, 135, 1);
@@ -21,6 +30,17 @@
   letter-spacing: 0.5px;
   text-align: center;
   margin-bottom: 32px;
+  @media (min-width: 1920px) {
+    width: 511px;
+    height: 47px;
+
+    font-size: 18px;
+
+    line-height: 28px;
+    letter-spacing: 1%;
+    margin: 0 auto;
+    margin-bottom: 71px;
+  }
 }
 .gallery-div {
   display: grid;
